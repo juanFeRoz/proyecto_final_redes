@@ -3,33 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://unpkg.com/marx-css/css/marx.min.css">
     <title>Artcloud</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Enlace al archivo CSS externo -->
 </head>
 <body>
-    <h1>Artcloud</h1>
+    <!-- Encabezado -->
+    <header>
+        <h1>Artcloud</h1>
+        <p>El arte para todos, en todas sus formas</p>
+    </header>
 
-    <p>Creemos que el arte se puede expresar de muchas formas y que este deberia estar al alcanze de todos</p>
+    <!-- Barra de navegación -->
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#obras">Obras</a>
+        <a href="#registro">Únete</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
 
-    <p>Explora nuestras obras mas recientes:</p>
-    <ul>
-        <a href="historia1.html">Historia Isekai</a>
-        <br/>
-        <a href="Historia2.html">Historia Futurista</a>
-        <br/>
-        <a href="Historia3.html">Historia Postapocaliptica</a>
-        <br/>
-        <a href="Historia4.html">Historia Medieval</a>
-        <br/>
-        <a href="Historia5.html">Historia Random</a>
-        <br/>
-        <a href="Historia6.html">El Eco de las Almas</a>
-        <br/>
-        <a href="Historia7.html">La Llama de Nara</a>
-        <br/>
-    </ul>
+    <!-- Contenido principal -->
+    <main id="inicio">
+        <h2>Explora nuestras obras más recientes</h2>
+        <p>Descubre historias únicas creadas para inspirarte:</p>
+        <ul id="obras">
+            <a href="historia1.html">Historia Isekai</a>
+            <a href="Historia2.html">Historia Futurista</a>
+            <a href="Historia3.html">Historia Postapocalíptica</a>
+            <a href="Historia4.html">Historia Medieval</a>
+            <a href="Historia5.html">Historia Random</a>
+            <a href="Historia6.html">El Eco de las Almas</a>
+            <a href="Historia7.html">La Llama de Nara</a>
+        </ul>
+        <p id="registro">
+            ¿Quieres más contenido exclusivo? ¡Únete a nuestra comunidad ahora!
+        </p>
+        <a href="#" class="btn-register">Registrarse</a>
+    </main>
 
-    <p>Unete a nuestra comunidad</p>
-    <a href="#">Registrate</a>
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Artcloud. Todos los derechos reservados.</p>
+        <p id="contacto">
+            Contáctanos en: <a href="mailto:contacto@artcloud.com" class="email">contacto@artcloud.com</a>
+        </p>
+    </footer>
 </body>
 </html>
