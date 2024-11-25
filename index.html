@@ -4,48 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Artcloud</title>
-    <link rel="stylesheet" href="https://unpkg.com/marx-css/css/marx.min.css" href="styles.css"> <!-- Enlace al archivo CSS externo -->
+    <link rel="stylesheet" href="https://unpkg.com/marx-css/css/marx.min.css" href="styles.css"> <!-- Enlace al CSS -->
 </head>
 <body>
-    <!-- Encabezado -->
+    <!-- Barra de navegación -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#obras">Obras</a></li>
+            <li><a href="#unete">Únete</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Encabezado principal -->
     <header>
         <h1>Artcloud</h1>
         <p>El arte para todos, en todas sus formas</p>
     </header>
 
-    <!-- Barra de navegación -->
-    <nav>
-        <a href="#inicio">Inicio</a>
-        <a href="#obras">Obras</a>
-        <a href="#registro">Únete</a>
-        <a href="#contacto">Contacto</a>
-    </nav>
-
-    <!-- Contenido principal -->
-    <main id="inicio">
+    <!-- Sección de obras -->
+    <section id="obras">
         <h2>Explora nuestras obras más recientes</h2>
         <p>Descubre historias únicas creadas para inspirarte:</p>
-        <ul id="obras">
-            <a href="historia1.html">Historia Isekai</a>
-            <a href="Historia2.html">Historia Futurista</a>
-            <a href="Historia3.html">Historia Postapocalíptica</a>
-            <a href="Historia4.html">Historia Medieval</a>
-            <a href="Historia5.html">Historia Random</a>
-            <a href="Historia6.html">El Eco de las Almas</a>
-            <a href="Historia7.html">La Llama de Nara</a>
+        <ul class="stories">
+            <li><a href="historia1.html">Historia Isekai</a></li>
+            <li><a href="historia2.html">Historia Futurista</a></li>
+            <li><a href="historia3.html">Historia Postapocalíptica</a></li>
+            <li><a href="historia4.html">Historia Medieval</a></li>
+            <li><a href="historia5.html">Historia Random</a></li>
+            <li><a href="historia6.html">El Eco de las Almas</a></li>
+            <li><a href="historia7.html">La Llama de Nara</a></li>
         </ul>
-        <p id="registro">
-            ¿Quieres más contenido exclusivo? ¡Únete a nuestra comunidad ahora!
-        </p>
-        <a href="#" class="btn-register">Registrarse</a>
-    </main>
+        <p>¿Quieres más contenido exclusivo? ¡Únete a nuestra comunidad ahora!</p>
+        <a href="#" id="unete">Registrarse</a>
+    </section>
 
     <!-- Pie de página -->
     <footer>
         <p>&copy; 2024 Artcloud. Todos los derechos reservados.</p>
-        <p id="contacto">
+        <p>
             Contáctanos en: <a href="mailto:contacto@artcloud.com" class="email">contacto@artcloud.com</a>
         </p>
     </footer>
 </body>
 </html>
+
