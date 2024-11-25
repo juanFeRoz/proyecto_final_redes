@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/marx-css/css/marx.min.css">
+    <title>Artcloud</title>
+</head>
+<body>
+    <a href="index.html">Artcloud</a>
+    <br/>
+
+    <p>En la ciudad flotante de Erya, las almas de los ancestros susurraban consejos a los vivos. Sin embargo, Ryo nació sin la habilidad de escuchar a estos espíritus, lo que lo convirtió en un paria.</p>
+
+    <p>En su afán por demostrar su valía, Ryo se embarcó en una peligrosa expedición hacia las Ruinas del Olvido. Allí, encontró un fragmento de un alma antigua que lo eligió como su anfitrión. Esta alma, llamada Kael, pertenecía a un guerrero exiliado por traición.</p>
+
+    <p>Con la ayuda de Kael y su amiga Aila, Ryo descubrió que el verdadero traidor aún conspiraba para destruir Erya. Finalmente, demostró que incluso un eco de alma podía convertirse en un grito de esperanza.</p>
+</body>
+</html>
